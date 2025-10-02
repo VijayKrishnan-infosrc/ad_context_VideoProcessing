@@ -1,0 +1,7 @@
+opencv-python>=4.7.0
+scenedetect>=0.6.0
+pysrt>=1.1.2
+ffmpeg-python>=0.3.0
+torch>=2.1.0           # for BLIP/captioning later
+transformers>=4.40.0   # for BLIP/captioning later
+sentence-transformers>=2.2.2  # optional, for embeddings later

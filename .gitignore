@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories
+analysis_output*/
+*.json
+*.jpg
+*.png
+
+# Video files (too large for git)
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Models (big files, keep in release or use git lfs)
+*.onnx
+*.pt
+*.h5
+*.weights
