@@ -5,7 +5,7 @@ It combines **scene detection, object detection (YOLO), OCR (Tesseract), and mot
 main_updated_pipeline.py has the recent version of pipeline.
 ---
 
-## ⚡ Features
+##  Features
 - **Scene Detection** → Splits video into meaningful shots using `scenedetect`.
 - **Keyframe Extraction** → Saves representative frames (start, middle, end).
 - **Object Detection** → Uses **YOLOv8 (ONNX, OpenCV DNN)** trained on **COCO-80 classes**.
@@ -15,7 +15,7 @@ main_updated_pipeline.py has the recent version of pipeline.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ad_context_VideoProcessing/
 │── main.py # Entry script
 │── main_updated_pipeline.py # Updated full pipeline- latest(visual features only)
